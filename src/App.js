@@ -12,7 +12,6 @@ export default function App() {
       <div className="weather-app">
         <h1 className="title">Weather App</h1>
         <Search />
-        
         <Forecast />
       </div>
       <Footer />
