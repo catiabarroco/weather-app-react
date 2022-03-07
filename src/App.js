@@ -2,7 +2,6 @@ import "./styles.css";
 import Search from "./Search";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
-import Weather from "./Weather";
 
 import "./App.css";
 
