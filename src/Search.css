@@ -1,0 +1,15 @@
+.btn-primary {
+    font-weight: bold;
+    border: #c25df1;
+  }
+  
+  .btn-primary:hover {
+    background-color: white;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+  }
+  
+  #weather-form {
+    margin-bottom: 20px;
+  }
+  
