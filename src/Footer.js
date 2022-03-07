@@ -23,7 +23,7 @@ export default function Footer() {
         </a>
         <span> and hosted on </span>
         <a
-          href="https://silly-mcnulty-0e89fc.netlify.app/"
+          href="https://competent-banach-9901a5.netlify.app/"
           target="_black"
           rel="noreferrer"
         >
