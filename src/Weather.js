@@ -9,7 +9,8 @@ export default function Weather(props) {
   let [description, setDescription] = useState("");
   let [icon, setIcon] = useState("");
   let [cityname, setCityname] = useState("");
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=ba00217b7fe0bd4291cf582c185f4f48`;
+  let apiKey="577ba2499c8332640e4a2e175db77b37"
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=${apiKey}`;
   axios.get(url).then(showTemperature);
 
   function showTemperature(response) {
