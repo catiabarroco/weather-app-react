@@ -1,0 +1,8 @@
+.WeatherTemp a:hover{
+font-weight: bold;
+}
+
+.WeatherTemp .active{
+    font-size: 25px;
+    font-weight: bold;
+}
