@@ -1,8 +1,21 @@
-.WeatherTemp a:hover{
-font-weight: bold;
+.WeatherTemp a:hover {
+  font-weight: bold;
 }
 
-.WeatherTemp .active{
-    font-size: 25px;
-    font-weight: bold;
+.WeatherTemp .active {
+  font-size: 25px;
+  font-weight: bold;
 }
+
+.WeatherTemp .units {
+  position: relative;
+  top: -40px;
+}
+
+.WeatherTemp .units a {
+  text-decoration: none;
+}
+
+#temperature {
+    font-size: 80px;
+  }

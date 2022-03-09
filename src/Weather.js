@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import WeatherIcon from "./WeatherIcon"
 import WeatherTemp from "./WeatherTemp";
+
 import "./Weather.css";
+import DateFormatted from "./DateFormatted";
 
 
 export default function Weather(props) {
@@ -18,7 +20,7 @@ export default function Weather(props) {
           
           <ul>
             <li>
-              <span className="date">Tuesday 11:45</span> ,
+              <DateFormatted date={props.data.date} /> ,
               <span className="description"> {props.data.description}</span>
             </li>
             <li>

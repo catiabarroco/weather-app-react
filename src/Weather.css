@@ -14,19 +14,6 @@ li {
   font-weight: 900;
 }
 
-#temperature {
-  font-size: 80px;
-}
-
-.units {
-  position: relative;
-  top: -40px;
-}
-
-.units a {
-  text-decoration: none;
-}
-
 .description {
   text-transform: capitalize;
 }
@@ -40,5 +27,4 @@ li {
 .Weather .icon-image {
   text-align: center;
   margin: auto;
-
 }
