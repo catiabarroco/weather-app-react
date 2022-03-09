@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Weather from "./Weather";
 import "./Search.css";
+import Forecast from "./Forecast";
 import axios from "axios";
 
 export default function Search(props) {
@@ -59,7 +60,6 @@ export default function Search(props) {
               <button
                 className="btn btn-sucess btn-primary w-100"
                 id="current-location-button"
-                
               >
                 Location
               </button>
@@ -68,6 +68,9 @@ export default function Search(props) {
         </form>
         <div>
           <Weather data={weatherData} />{" "}
+        </div>
+        <div>
+          <Forecast />
         </div>
       </div>
     );
