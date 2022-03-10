@@ -17,6 +17,7 @@ export default function Search(props) {
       icon: response.data.weather[0].icon,
       cityname: response.data.name,
       date: new Date(response.data.dt * 1000),
+      coordenates: response.data.coord,
     });
   }
 
@@ -71,7 +72,7 @@ export default function Search(props) {
           <Weather data={weatherData} />{" "}
         </div>
         <div>
-          <Forecast />
+          <Forecast data={weatherData.coordenates} />
         </div>
       </div>
     );

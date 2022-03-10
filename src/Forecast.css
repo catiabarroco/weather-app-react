@@ -1,35 +1,37 @@
+.Forecast .ForecastDayWeather {
+  padding: 15px;
+  border-radius: 50px;
+  margin: 5px;
+}
+.Forecast .maxim,
+.minim {
+  color: #0d6efd;
+}
 .future-weather {
-    margin: 20px auto;
-  }
-  .future-weather .col {
-    text-align: center;
-    padding: 0;
-  }
-  .card-title {
-    font-size: 17px;
-  }
-  
-  .card {
-    margin: 7px auto;
-  }
-  
-  .card .maxim {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #0d6efd;
-    font-weight: 700;
-    margin-right: 5px;
-  }
-  
-  .card .minim {
-    font-size: 18px;
-    opacity: 0.6;
-    line-height: 1.5;
-    color: #0d6efd;
-    font-weight: 700;
-  }
-  
-  .card-img-top {
-    width: 50%;
-  }
-  
+  margin: 20px auto;
+}
+.future-weather .col {
+  text-align: center;
+  padding: 0;
+}
+.Forecast .forecastDay {
+  font-size: 18px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.Forecast .maxim {
+  font-size: 18px;
+  line-height: 1.5;
+
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.Forecast .minim {
+  font-size: 18px;
+  opacity: 0.6;
+  line-height: 1.5;
+
+  font-weight: 700;
+}
