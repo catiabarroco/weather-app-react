@@ -3,6 +3,7 @@ import Weather from "./Weather";
 import "./Search.css";
 import Forecast from "./Forecast";
 import axios from "axios";
+import UpdateColorBackground from "./UpdateColorBackground";
 
 export default function Search(props) {
   let [city, setCity] = useState(props.cityDefault);
@@ -21,12 +22,13 @@ export default function Search(props) {
     });
   }
 
+  
   function updateCity(event) {
     setCity(event.target.value);
   }
 
   function search() {
-    let apiKey = `577ba2499c8332640e4a2e175db77b37`;
+    let apiKey = `ba00217b7fe0bd4291cf582c185f4f48`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -58,14 +60,14 @@ export default function Search(props) {
                 id="search-new-city"
               />
             </div>
-            
           </div>
         </form>
         <div>
-          <Weather data={weatherData} />{" "}
+          <Weather data={weatherData} /> 
         </div>
         <div>
           <Forecast data={weatherData.coordenates} />
+          <UpdateColorBackground codeIcon={weatherData.icon} />
         </div>
       </div>
     );
