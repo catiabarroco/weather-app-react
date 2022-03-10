@@ -3,9 +3,15 @@
 }
 
 .WeatherTemp .active {
-  font-size: 25px;
   font-weight: bold;
 }
+
+.WeatherTemp .desactive {
+  font-size: 15px;
+  opacity: 0.6;
+
+}
+
 
 .WeatherTemp .units {
   position: relative;
