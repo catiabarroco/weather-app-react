@@ -50,7 +50,7 @@ export default function Search(props) {
                 onChange={updateCity}
               />
             </div>
-            <div className="col">
+            <div className="col-4">
               <input
                 type="submit"
                 value="Search"
@@ -58,14 +58,7 @@ export default function Search(props) {
                 id="search-new-city"
               />
             </div>
-            <div className="col">
-              <button
-                className="btn btn-sucess btn-primary w-100"
-                id="current-location-button"
-              >
-                Location
-              </button>
-            </div>
+            
           </div>
         </form>
         <div>

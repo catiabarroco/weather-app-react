@@ -1,6 +1,6 @@
 .Forecast .ForecastDayWeather {
   padding: 15px;
-  border-radius: 50px;
+  
   margin: 5px;
 }
 .Forecast .maxim,
@@ -35,3 +35,4 @@
 
   font-weight: 700;
 }
+

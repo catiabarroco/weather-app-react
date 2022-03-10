@@ -7,7 +7,7 @@ export default function ForecastDayWeather(props) {
   let day = date.getDay();
 
   return (
-    <div className="ForecastDayWeather shadow">
+    <div className="ForecastDayWeather card">
       <div className="forecastDay">{days[day]}</div>
       <div className="icon">
         <WeatherIcon codeIcon={props.data.weather[0].icon} size={40} />
